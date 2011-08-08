@@ -1,0 +1,11 @@
+Run ./get-sbt.sh to download simple-build-tool
+
+Set your AWS credentials and bucket name:
+  export AWS_ACCESS_KEY_ID="..."
+  export AWS_SECRET_ACCESS_KEY="..."
+  export AWS_S3_BUCKET_NAME="..."
+
+
+Run ./run.sh to run the test cases
+
+Edit built.sbt to change the aws-java-sdk version
